@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/EditTextGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="@string/CampoGasolina"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditTextAlc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/CampoAlcool"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnComparar"
+        android:onClick="go"
+        />
+</LinearLayout>
